@@ -1,0 +1,29 @@
+@media only screen and (max-width: 830px) {
+  .flex-res {
+    column-count: 3;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .flex-res {
+    column-count: 2;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .flex-res {
+    column-count: 1;
+  }
+}
+@media only screen and (max-width: 625px) {
+  #all-inputs {
+    display: block !important;
+  }
+  #search-form {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  #type {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+}

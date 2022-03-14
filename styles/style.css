@@ -1,0 +1,95 @@
+a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  background-image: url("../images/hero.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 530px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.texts {
+  background: rgba(0, 0, 0, 0.37);
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  font-size: large;
+  font-weight: 400;
+}
+.flex-res {
+  column-count: 4;
+  column-gap: 1em;
+  margin: 1.5em;
+  padding: 0;
+  column-gap: 1.5em;
+  font-size: 0.85em;
+}
+
+.item {
+  display: inline-block;
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+}
+
+.item img {
+  max-width: 100%;
+}
+.overlay {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+.overlay .text {
+  width: 100%;
+  margin-top: 10px;
+}
+.overlay .text h3 {
+  font-size: 15px;
+  display: inline-block;
+}
+.overlay .text p {
+  display: inline;
+  float: right;
+}
+.item:hover .overlay {
+  visibility: visible;
+}
+.view-button {
+  background-color: tomato;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid tomato;
+  margin-top: 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.view-button:hover {
+  background-color: transparent;
+  color: tomato;
+}
+#loader {
+  display: none;
+}
