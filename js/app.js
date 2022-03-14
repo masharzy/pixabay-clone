@@ -5,7 +5,7 @@ const getELementId = (id) => {
 };
 
 document.getElementById("search-form").addEventListener("keyup", (event) => {
-  if (event.keyCode === 13) {
+  if (event.key === 'Enter') {
     if (getELementId("search-form").value === "") {
       alert("Please enter a value to search");
     } else {
